@@ -2466,7 +2466,7 @@ if (find !== null) {
 }
 
 // ㄱ + ㄴ → ㅇ, ㄴ
-syl = syl.replace(/kn/g, "ngn");
+//syl = syl.replace(/kn/g, "ngn");
 
 // ㄷ + ㅎ → ㅌ
 var find = syl.match(/dh[aeouy]/g);
