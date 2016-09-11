@@ -2355,7 +2355,6 @@ syl = syl.replace(/힝/g, "hing");
 
 syl = syl.replace(/si/g, "shi");
 syl = syl.replace(/geojinmal/g, "geojitmal");
-syl = syl.replace(/[aeoui]kkk[aeouiy]/g, "kk");
 
 
 
