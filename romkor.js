@@ -1,5 +1,3 @@
-
-
 // Copyright @ ColorCodedLyrics
 var syl;
 function hanToRom () {
@@ -2385,6 +2383,14 @@ if (find !== null) {
 	}
 }
 
+var find = syl.match(/[aeiou]k[^aeoiuy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/k/g, "k"));
+	}
+}
+
 //  ㅂ + ㅁ = ㅁㅁ
 var find = syl.match(/[aeiouy]bm[aeoiuy]/g);
 if (find !== null) {
@@ -2831,4 +2837,3 @@ if (find !== null) {
 
 document.romanization.rom.value=syl;
 }
-
