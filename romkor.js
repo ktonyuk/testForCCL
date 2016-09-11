@@ -2,7 +2,6 @@
 var syl;
 function hanToRom () {
 syl = document.romanization.han.value + " ";
-
 syl = syl.replace(/가/g, "ga");
 syl = syl.replace(/각/g, "gak");
 syl = syl.replace(/간/g, "gan");
@@ -2355,8 +2354,8 @@ syl = syl.replace(/힛/g, "his");
 syl = syl.replace(/힝/g, "hing");
 
 syl = syl.replace(/si/g, "shi");
-
 syl = syl.replace(/geojinmal/g, "geojitmal");
+syl = syl.replace(/[aeoui]kkk[aeouiy]/g, "kk");
 
 
 
