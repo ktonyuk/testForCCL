@@ -1,0 +1,32 @@
+         <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hangul to Romanization Converter</title>
+
+
+<style type="text/css">
+.bf {cursor:pointer; font-size:9pt; color:#666666; }
+.cadr { width:94%; color:black; font-family:'Arial Unicode MS'; font-size:12pt; padding:5px; scrollbar-base-color:transparent; scrollbar-track-color:transparent; }
+</style>
+<script type="text/javascript" src="/home/kat/Documents/CCL/romkor.js"></script>
+
+</head>
+<body>
+<h1 align="center">Hangul to Romanization Converter</h1>
+
+
+<form name="romanization">
+<table width="100%">
+<tbody><tr align="center"> 
+<td width="50%">Hangul<br> 
+<textarea name="han" rows="20" onkeyup="hanToRom()" class="cadr"></textarea> <br> <br>
+
+<td width="50%">Romanization <br> 
+<textarea name="rom" rows="20" class="cadr"></textarea> <br> <br>  </td>
+</tr>
+</tbody></table>
+</form>
+
+</body>
+</html>
