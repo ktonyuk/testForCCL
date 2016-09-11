@@ -2407,7 +2407,7 @@ if (find !== null) {
 }
 
 // ㅎ is silent,
-var find = syl.match(/[mjn][eoa]h[aeoiuys]/g);
+var find = syl.match(/[mjn][eoa]h/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
