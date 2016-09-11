@@ -2354,9 +2354,6 @@ syl = syl.replace(/힛/g, "his");
 syl = syl.replace(/힝/g, "hing");
 
 syl = syl.replace(/si/g, "shi");
-syl = syl.replace(/geojinmal/g, "geojitmal");
-
-
 
 // Consonant followed by a vowel
 // ㄱ   ㄴ ㄷ    ㄹ  ㅁ  ㅂ   ㅅ ㅈ  ㅊ ㅋ  ㅌ ㅍ ㅎ
@@ -2417,9 +2414,6 @@ if (find !== null) {
    		syl = syl.replace(find[i], find[i].replace(/h/g, ""));
 	}
 }
-
-// aet --> haet 했
-syl = syl.replace(/aet/g, "haet");
 
 // ㅌ + 이 = 치
 var find = syl.match(/[aeiouy]t[i]/g);
@@ -2827,6 +2821,12 @@ if (find !== null) {
  		syl = syl.replace(find[i], find[i].replace(/lb/g, "l"));
 	}
 }
+
+// individual words
+
+syl = syl.replace(/geojinmal/g, "geojitmal");
+//  -->aet haet 했
+syl = syl.replace(/aet/g, "haet");
 
 document.romanization.rom.value=syl;
 }
