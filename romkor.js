@@ -2418,6 +2418,8 @@ if (find !== null) {
 	}
 }
 
+// aet --> haet 했
+syl = syl.replace(/aet/g, "haet");
 
 // ㅌ + 이 = 치
 var find = syl.match(/[aeiouy]t[i]/g);
@@ -2668,31 +2670,22 @@ if (find !== null) {
 
 // ㄴ + ㄹ  → ㄹ, ㄹ
 syl = syl.replace(/nr/g, "ll");
-
 // ㄹ + ㄹ  → ㄹㄹ
 syl = syl.replace(/lr/g, "ll");
-
 // ㄹ + ㄴ  → ㄹ, ㄹ
 syl = syl.replace(/ln/g, "ll");
-
 // ㄱ + ㄹ → ㅇ, ㄴ
 syl = syl.replace(/kr/g, "ngn");
-
 // ㅇ + ㄹ → ㅇ, ㄴ
 syl = syl.replace(/ngr/g, "ngn");
-
 // ㄱ + ㅎ  → ㅋ
 syl = syl.replace(/kh/g, "k");
-
 // ㅎ + ㄱ  → ㅋ
 syl = syl.replace(/hg/g, "k");
-
 // ㅂ + ㅎ → ㅍ
 syl = syl.replace(/bh/g, "p");
-
 // ㅎ + ㅈ → ㅊ
 syl = syl.replace(/hj/g, "ch");
-
 
 // ㅎ ㅊ = ㅌ ㅊ
 var find = syl.match(/[aeoui]hch[aeouiy]/g);
