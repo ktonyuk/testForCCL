@@ -2673,7 +2673,7 @@ syl = syl.replace(/kr/g, "ngn");
 // ㅇ + ㄹ → ㅇ, ㄴ
 syl = syl.replace(/ngr/g, "ngn");
 // ㄱ + ㅎ  → ㅋ
-syl = syl.replace(/kh/g, "k");
+// syl = syl.replace(/kh/g, "k");
 // ㅎ + ㄱ  → ㅋ
 syl = syl.replace(/hg/g, "k");
 // ㅂ + ㅎ → ㅍ
