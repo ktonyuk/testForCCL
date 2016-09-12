@@ -2567,13 +2567,13 @@ if (find !== null) {
 
 // ㄱ ㄷ, makes ㄷ → ㄸ
 // ㅂ ㄷ, makes ㄷ → ㄸ
-var find = syl.match(/[bpkl]d[aeouiy]/g);
-if (find !== null) {
-	console.log(find);
-	for (i = 0; i < find.length; i++) {
-   		syl = syl.replace(find[i], find[i].replace(/d/g, "tt"));
-	}
-}
+//var find = syl.match(/[bpkl]d[aeouiy]/g);
+//if (find !== null) {
+//	console.log(find);
+//	for (i = 0; i < find.length; i++) {
+//   		syl = syl.replace(find[i], find[i].replace(/d/g, "tt"));
+//	}
+//}
 
 // ㅈ, ㄷ, ㅅ, ㅌ, ㅆ, ㅊ followed by ㅅ, romanize them as ㅅ
 
