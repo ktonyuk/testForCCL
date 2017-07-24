@@ -691,6 +691,7 @@ syl = syl.replace(/렐/g, "rel");
 syl = syl.replace(/렘/g, "rem");
 syl = syl.replace(/렙/g, "reb");
 syl = syl.replace(/렛/g, "res");
+syl = syl.replace(/렜/g, "ret");
 syl = syl.replace(/렝/g, "reng");
 syl = syl.replace(/려/g, "ryeo");
 syl = syl.replace(/력/g, "ryeok");
