@@ -2829,6 +2829,7 @@ syl = syl.replace(/geojinmal/g, "geojitmal");
 //  -->aet haet 했
 syl = syl.replace(/aet/g, "haet");
 syl = syl.replace(/bicto/g, "bitto");
+syl = syl.replace(/bicchu/g, "bitchu");
 
 document.romanization.rom.value=syl;
 }
