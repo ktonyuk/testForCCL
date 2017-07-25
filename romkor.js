@@ -2823,6 +2823,28 @@ if (find !== null) {
 	}
 }
 
+// [pr] and [pn] = [mn]
+// 입력 ipryeok = imnyeok
+// 입니다 ipnida = imnida
+
+var find = syl.match(/[aeiou]pr[aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+ 		syl = syl.replace(find[i], find[i].replace(/pr/g, "mn"));
+	}
+}
+
+	// ㄼ → ㄹ followed by consonant
+var find = syl.match(/[aeiou]pn[aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+ 		syl = syl.replace(find[i], find[i].replace(/pn/g, "mn"));
+	}
+}
+
+
 // individual words
 
 syl = syl.replace(/geojinmal/g, "geojitmal");
