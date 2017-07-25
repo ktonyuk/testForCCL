@@ -509,7 +509,7 @@ syl = syl.replace(/돠/g, "dwa");
 syl = syl.replace(/돤/g, "dwan");
 syl = syl.replace(/돨/g, "dwal");
 syl = syl.replace(/돼/g, "dwae");
-syl = syl.replace(/됐/g, "dwaess");
+syl = syl.replace(/됐/g, "dwaet");
 syl = syl.replace(/되/g, "doe");
 syl = syl.replace(/된/g, "doen");
 syl = syl.replace(/될/g, "doel");
@@ -526,7 +526,7 @@ syl = syl.replace(/둡/g, "dup");
 syl = syl.replace(/둣/g, "dut");
 syl = syl.replace(/둥/g, "dung");
 syl = syl.replace(/둬/g, "dweo");
-syl = syl.replace(/뒀/g, "dweoss");
+syl = syl.replace(/뒀/g, "dweot");
 syl = syl.replace(/뒈/g, "dwe");
 syl = syl.replace(/뒝/g, "dweng");
 syl = syl.replace(/뒤/g, "dwi");
@@ -2861,7 +2861,7 @@ syl = syl.replace(/bicto/g, "bitto");
 syl = syl.replace(/bicchu/g, "bitchu");
 syl = syl.replace(/banjak/g, "banjjak");
 syl = syl.replace(/bakhyeo/g, "balkyeo");
-syl = syl.replace(/dwhaetda/g, "dwaetta");
+// syl = syl.replace(/dwhaetda/g, "dwaetta");
 
 document.romanization.rom.value=syl;
 }
