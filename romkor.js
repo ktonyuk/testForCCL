@@ -2417,13 +2417,13 @@ if (find !== null) {
 }
 
 // ㅌ + 이 = 치
-var find = syl.match(/[aeiouy]t[i]/g);
-if (find !== null) {
-	console.log(find);
-	for (i = 0; i < find.length; i++) {
-   		syl = syl.replace(find[i], find[i].replace(/t/g, "ch"));
-	}
-}
+//var find = syl.match(/[aeiouy]t[i]/g);
+//if (find !== null) {
+//	console.log(find);
+//	for (i = 0; i < find.length; i++) {
+//   		syl = syl.replace(find[i], find[i].replace(/t/g, "ch"));
+//	}
+//}
 
 // ㄷ + 이 = 지, ㄷ batchim only followed by vowel
 //var find = syl.match(/[jsbmdnk]ad[i]/g);
