@@ -2540,7 +2540,7 @@ var find = syl.match(/[aeiou]ssd[aeouy]/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
-   		syl = syl.replace(find[i], find[i].replace(/ssd/g, "td"));
+   		syl = syl.replace(find[i], find[i].replace(/ssd/g, "tt"));
 	}
 }
 
@@ -2548,7 +2548,7 @@ var find = syl.match(/[aeiou]chd[aeouy]/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
-   		syl = syl.replace(find[i], find[i].replace(/chd/g, "td"));
+   		syl = syl.replace(find[i], find[i].replace(/chd/g, "tt"));
 	}
 }
 
@@ -2828,6 +2828,7 @@ if (find !== null) {
 syl = syl.replace(/geojinmal/g, "geojitmal");
 //  -->aet haet 했
 syl = syl.replace(/aet/g, "haet");
+syl = syl.replace(/bicto/g, "bitto");
 
 document.romanization.rom.value=syl;
 }
