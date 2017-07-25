@@ -2823,11 +2823,12 @@ if (find !== null) {
 	}
 }
 
-// [pr] and [pn] = [mn]
+// [pr],[pn], [pm] = [mn]
 // 입력 ipryeok = imnyeok
 // 입니다 ipnida = imnida
+// 입매 ipmae = immae
 
-var find = syl.match(/[aeiou]pr[aeiouy]/g);
+var find = syl.match(/[i]pr[aeiouy]/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
@@ -2835,8 +2836,7 @@ if (find !== null) {
 	}
 }
 
-	// ㄼ → ㄹ followed by consonant
-var find = syl.match(/[aeiou]pn[aeiouy]/g);
+var find = syl.match(/[i]pn[aeiouy]/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
@@ -2844,6 +2844,13 @@ if (find !== null) {
 	}
 }
 
+var find = syl.match(/[i]pm[aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+ 		syl = syl.replace(find[i], find[i].replace(/pm/g, "mn"));
+	}
+}
 
 // individual words
 
