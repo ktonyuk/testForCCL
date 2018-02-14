@@ -2868,6 +2868,15 @@ syl = syl.replace(/hakka/g, "halkka");
 syl = syl.replace(/geureokka/g, "geureolkka");
 syl = syl.replace(/geokka/g, "geolkka");
 syl = syl.replace(/ikka/g, "ilkka");
+	
+syl = syl.replace(/rhaet/g, "raet");
+syl = syl.replace(/bhaeteul/g, "baeteul");
+syl = syl.replace(/seoldeungnyeok/g, "seoldeuglyeog");
+syl = syl.replace(/gyeonkk/g, "gyeokk");
+syl = syl.replace(/yongmeogeul/g, "yogmeogeul");
+syl = syl.replace(/dwhaeteo/g, "dwaesseo");
+syl = syl.replace(/mendo/g, "muindo");
+syl = syl.replace(/deuti/g, "deushi");
 // syl = syl.replace(/dwhaetda/g, "dwaetta");
 
 document.romanization.rom.value=syl;
