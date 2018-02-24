@@ -2877,6 +2877,8 @@ syl = syl.replace(/yongmeogeul/g, "yogmeogeul");
 syl = syl.replace(/dwhaeteo/g, "dwaesseo");
 syl = syl.replace(/mendo/g, "muindo");
 syl = syl.replace(/deuti/g, "deushi");
+syl = syl.replace(/hanimnan/g, "hanimman");
+syl = syl.replace(/imnajchumhae/g, "immatchumhae");
 // syl = syl.replace(/dwhaetda/g, "dwaetta");
 
 document.romanization.rom.value=syl;
