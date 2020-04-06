@@ -2880,6 +2880,12 @@ syl = syl.replace(/deuti/g, "deushi");
 syl = syl.replace(/hanimnan/g, "hanimman");
 syl = syl.replace(/imnajchumhae/g, "immatchumhae");
 // syl = syl.replace(/dwhaetda/g, "dwaetta");
+syl = syl.replace(/shiweonan/g, "shiweonhan");
+syl = syl.replace(/ganjireopimyeon/g, "ganjireophimyeon");
+syl = syl.replace(/syugasyuga/g, "shyugashyuga");
+syl = syl.replace(/yeongweonan/g, "yeongweonhan");
+syl = syl.replace(/jigyeojuneun/g, "jikyeojuneun");
+syl = syl.replace(/balkeun/g, "balgeun");
 
 document.romanization.rom.value=syl;
 }
