@@ -2937,6 +2937,13 @@ syl = syl.replace(/jengongi/g, "juingongi");
 syl = syl.replace(/gati/g, "gachi");
 syl = syl.replace(/busyeo/g, "bushyeo");
 syl = syl.replace(/seoroye/g, "seoreoi");
- 
+
+syl = syl.replace(/bokjapan/g, "bokjabhan");
+syl = syl.replace(/ipgae/g, "ibgae");
+syl = syl.replace(/hwanan/g, "hwanhan");
+syl = syl.replace(/yeongweonagil/g, "yeongweonhagil");
+syl = syl.replace(/sangsanghhaetteon/g, "sangsanghaetteon");
+
+
 document.romanization.rom.value=syl;
 }
