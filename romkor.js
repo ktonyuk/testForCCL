@@ -2957,7 +2957,20 @@ syl = syl.replace(/meorigarak/g, "meorikarak");
 syl = syl.replace(/nalghaetjiseuro/g, "nalgaetjiseuro");
 syl = syl.replace(/sainilkka/g, "sainikka");
 syl = syl.replace(/ttaseuhhaetteon/g, "ttaseuhaetteon");
-syl = syl.replace(/ttatteushae/g, "yeongweonhagil");
+syl = syl.replace(/ttatteushae/g, "ttatteuthae");
 	
+syl = syl.replace(/challanan/g, "challanhan");
+syl = syl.replace(/doechajeul/g, "dwechajeul");
+syl = syl.replace(/doeeo/g, "dweeo");
+syl = syl.replace(/doegama/g, "dwegama");
+syl = syl.replace(/doen/g, "dwen");
+syl = syl.replace(/dwhaetgi/g, "dwaetgi");
+syl = syl.replace(/georeobokka/g, "georeobolkka");
+syl = syl.replace(/geureonilkka/g, "geureonikka");
+syl = syl.replace(/hwanage/g, "hwanhage");
+syl = syl.replace(/noeril/g, "nweril");
+syl = syl.replace(/toesaekhaebeorin/g, "twesaekhaebeorin");
+syl = syl.replace(/yeongweonae/g, "yeongweonhae");
+
 document.romanization.rom.value=syl;
 }
