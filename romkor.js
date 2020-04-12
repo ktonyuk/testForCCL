@@ -2974,7 +2974,7 @@ syl = syl.replace(/yeongweonae/g, "yeongweonhae");
 
 syl = syl.replace(/balkyeojuneyo/g, "balkhyeojuneyo");
 syl = syl.replace(/japilla/g, "jabhilla");
-syl = syl.replace(/mothigyeo/g, "motigyeo");
+syl = syl.replace(/yeollagi/g, "yeonragi");
 
 document.romanization.rom.value=syl;
 }
