@@ -2992,6 +2992,8 @@ syl = syl.replace(/jimjakhhaetji/g, "jimjakhaetji");
 syl = syl.replace(/okkabwa/g, "olkkabwa");
 syl = syl.replace(/ttatteushameuro/g, "ttatteuthameuro");
 syl = syl.replace(/useojukka/g, "useojulkka");
+	
+syl = syl.replace(/jjarishage/g, "jjarithage");
 
-document.romanization.rom.value=syl;
+	document.romanization.rom.value=syl;
 }
