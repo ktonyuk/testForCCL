@@ -2994,6 +2994,7 @@ syl = syl.replace(/ttatteushameuro/g, "ttatteuthameuro");
 syl = syl.replace(/useojukka/g, "useojulkka");
 	
 syl = syl.replace(/jjarishage/g, "jjarithage");
+syl = syl.replace(/loshing/g, "losing");
 
 	document.romanization.rom.value=syl;
 }
