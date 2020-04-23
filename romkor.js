@@ -2998,6 +2998,13 @@ syl = syl.replace(/loshing/g, "losing");
 syl = syl.replace(/eotteokka/g, "eotteolkka");
 syl = syl.replace(/loshing/g, "losing");
 
-	
+syl = syl.replace(/doego/g, "dwego");
+syl = syl.replace(/doege/g, "dwege");
+syl = syl.replace(/doel/g, "dwel");
+syl = syl.replace(/doelge/g, "dwelge");
+syl = syl.replace(/doemyeon/g, "dwemyeon");
+syl = syl.replace(/ginilkka/g, "ginikka");
+syl = syl.replace(/nugenjido/g, "nuguinjido");
+
 	document.romanization.rom.value=syl;
 }
