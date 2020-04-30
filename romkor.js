@@ -3019,6 +3019,14 @@ syl = syl.replace(/dwhaeteulttaedo/g, "dwaesseulttaedo");
 syl = syl.replace(/hhaetteugi/g, "haetteugi");
 syl = syl.replace(/naerijjoego/g, "naerijjwego");
 	
+syl = syl.replace(/soel/g, "swel");
+syl = syl.replace(/byeonana/g, "byeonhana");
+syl = syl.replace(/byeonaji/g, "byeonhaji");
+syl = syl.replace(/seonsepjang/g, "seonsuipjang");
+syl = syl.replace(/yeokjeonagi/g, "yeokjeonhagi");
+syl = syl.replace(/eobtteuti/g, "eobtteushi");
+syl = syl.replace(/oraedwhaetji/g, "oraedwaetji");
+
 	
 	document.romanization.rom.value=syl;
 }
