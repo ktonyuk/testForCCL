@@ -3043,6 +3043,8 @@ syl = syl.replace(/malhaejweotteuti/g, "malhaejweotteushi");
 syl = syl.replace(/nikkeonilkka/g, "nikkeonikka");
 syl = syl.replace(/phaeteondeureul/g, "paeteondeureul");
 syl = syl.replace(/sunganinilkka/g, "sunganinikka");
+syl = syl.replace(/yeojachingen/g, "yeojachinguin");
+
 	
 	document.romanization.rom.value=syl;
 }
