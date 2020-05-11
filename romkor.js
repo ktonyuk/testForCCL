@@ -3045,6 +3045,38 @@ syl = syl.replace(/phaeteondeureul/g, "paeteondeureul");
 syl = syl.replace(/sunganinilkka/g, "sunganinikka");
 syl = syl.replace(/yeojachingen/g, "yeojachinguin");
 
+syl = syl.replace(/chhaetteon/g, "chaetteon");
+syl = syl.replace(/galkkai/g, "gakkai");
+syl = syl.replace(/galkkaun/g, "gakkaun");
+syl = syl.replace(/gyehoegi/g, "gyehwegi");
+syl = syl.replace(/hashago/g, "hathago");
+syl = syl.replace(/hoesarang/g, "hwesarang");
+syl = syl.replace(/jamsubenji/g, "jamsubuinji");
+syl = syl.replace(/jigirago/g, "jikirago");
+syl = syl.replace(/yeppeukka/g, "yeppeulkka");
+syl = syl.replace(/mianadan/g, "mianhadan");
+syl = syl.replace(/geumanae/g, "geumanhae");
+syl = syl.replace(/haengbokhhaettan/g, "haengbokhaettan");
+syl = syl.replace(/saranghhaettansaranghaettan");
+syl = syl.replace(/mianadago/g, "mianhadago");
+syl = syl.replace(/geumanaja/g, "geumanhaja");
+syl = syl.replace(/bakkeutkkaji/g, "balkkeutkkaji");
+
+syl = syl.replace(/ppilkka/g, "ppikka");
+syl = syl.replace(/pphaetgin/g, "ppaetgin");
+syl = syl.replace(/jeonaji/g, "jeonhaji");
+syl = syl.replace(/mothhaetteon/g, "mothaetteon");
+syl = syl.replace(/pigonami/g, "pigonhami");
+syl = syl.replace(/heojeonajiman/g, "heojeonhajiman");
+
+syl = syl.replace(/deupnilkka/g, "deumnikka");
+syl = syl.replace(/iraesseumnilkka/g, "iraesseumnikka");
+syl = syl.replace(/isseumnilkka/g, "isseumnikka");
+syl = syl.replace(/jigil/g, "jikil");
+syl = syl.replace(/georeukka/g, "georeulkka");
+syl = syl.replace(/joesongeul/g, "jwesongeul");
+syl = syl.replace(/pyeonanage/g, "pyeonanhage");
+
 	
 	document.romanization.rom.value=syl;
 }
