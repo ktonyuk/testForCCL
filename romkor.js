@@ -3057,7 +3057,7 @@ syl = syl.replace(/yeppeukka/g, "yeppeulkka");
 syl = syl.replace(/mianadan/g, "mianhadan");
 syl = syl.replace(/geumanae/g, "geumanhae");
 syl = syl.replace(/haengbokhhaettan/g, "haengbokhaettan");
-syl = syl.replace(/saranghhaettansaranghaettan");
+syl = syl.replace(/saranghhaettan/g, "saranghaettan");
 syl = syl.replace(/mianadago/g, "mianhadago");
 syl = syl.replace(/geumanaja/g, "geumanhaja");
 syl = syl.replace(/bakkeutkkaji/g, "balkkeutkkaji");
@@ -3078,5 +3078,5 @@ syl = syl.replace(/joesongeul/g, "jwesongeul");
 syl = syl.replace(/pyeonanage/g, "pyeonanhage");
 
 	
-	document.romanization.rom.value=syl;
+document.romanization.rom.value=syl;
 }
