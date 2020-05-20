@@ -3095,7 +3095,18 @@ syl = syl.replace(/latery/g, "lately");
 syl = syl.replace(/taging/g, "taking");
 syl = syl.replace(/shaging/g, "shaking");
 syl = syl.replace(/pire/g, "pile");
-syl = syl.replace(/pire/g, "pile");
+yl = syl.replace(/allight/g, "alright");
+syl = syl.replace(/frustraching/g, "frustrating");
+syl = syl.replace(/absorutery/g, "absolutely");
+syl = syl.replace(/rerax/g, "relax");
+syl = syl.replace(/definitery/g, "definitely");
+syl = syl.replace(/witout/g, "without");
+syl = syl.replace(/doetn’t/g, "doesn't");
+syl = syl.replace(/alleady/g, "already");
+syl = syl.replace(/beriever/g, "believer");
+syl = syl.replace(/atmotphere/g, "atmosphere");
+syl = syl.replace(/famiriar/g, "familiar");
+	
 	
 document.romanization.rom.value=syl;
 }
