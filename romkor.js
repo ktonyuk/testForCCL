@@ -3077,6 +3077,25 @@ syl = syl.replace(/georeukka/g, "georeulkka");
 syl = syl.replace(/joesongeul/g, "jwesongeul");
 syl = syl.replace(/pyeonanage/g, "pyeonanhage");
 
+	//english words
+syl = syl.replace(/lonery/g, "lonely");
+syl = syl.replace(/coror/g, "color");
+syl = syl.replace(/sirent/g, "silent");
+syl = syl.replace(/horiday/g, "holiday");
+syl = syl.replace(/lovery/g, "lovely");
+syl = syl.replace(/rerentless/g, "relentless");
+syl = syl.replace(/arone/g, "alone");
+syl = syl.replace(/tage/g, "kale");
+syl = syl.replace(/togeter/g, "together");
+syl = syl.replace(/feering/g, "feeling");
+syl = syl.replace(/pire/g, "pile");
+syl = syl.replace(/foorish/g, "foolish");
+syl = syl.replace(/arways/g, "always");
+syl = syl.replace(/latery/g, "lately");
+syl = syl.replace(/taging/g, "taking");
+syl = syl.replace(/shaging/g, "shaking");
+syl = syl.replace(/pire/g, "pile");
+syl = syl.replace(/pire/g, "pile");
 	
 document.romanization.rom.value=syl;
 }
