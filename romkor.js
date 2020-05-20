@@ -3085,7 +3085,6 @@ syl = syl.replace(/horiday/g, "holiday");
 syl = syl.replace(/lovery/g, "lovely");
 syl = syl.replace(/rerentless/g, "relentless");
 syl = syl.replace(/arone/g, "alone");
-syl = syl.replace(/tage/g, "kale");
 syl = syl.replace(/togeter/g, "together");
 syl = syl.replace(/feering/g, "feeling");
 syl = syl.replace(/pire/g, "pile");
